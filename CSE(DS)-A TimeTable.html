@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Time Table - CSE DS A</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h2, h3{
+            text-align: center;
+            margin: 5px;
+        }
+
+        .top-info{
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+
+        table, th, td{
+            border: 1px solid black;
+        }
+
+        th, td{
+            padding: 8px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        th{
+            background-color: #f2f2f2;
+        }
+
+        .lunch{
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            font-weight: bold;
+            letter-spacing: 5px;
+        }
+
+        .placements{
+            font-weight: bold;
+        }
+
+        .subject-table th{
+            background-color: #e6e6e6;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h2>VIDYA JYOTHI INSTITUTE OF TECHNOLOGY</h2>
+    <h3>Department of Computer Science & Engineering (Data Science)</h3>
+    <h3>A.Y. 2025-2026</h3>
+
+    <div class="top-info">
+        <div>
+            Year/Sem: II-II<br>
+            SEC: CSE-DS-A
+        </div>
+        <div>
+            ROOM NO: N-303<br>
+            W.E.F: 19/1/2026
+        </div>
+    </div>
+
+    <!-- Main Timetable -->
+    <table>
+        <tr>
+            <th>Day / Time</th>
+            <th>09:20-10:10</th>
+            <th>10:10-11:00</th>
+            <th>11:00-11:50</th>
+            <th>11:50-12:40</th>
+            <th>12:40-01:30</th>
+            <th>01:30-02:20</th>
+            <th>02:20-03:10</th>
+            <th>03:10-03:50</th>
+        </tr>
+
+        <tr>
+            <td><b>MON</b></td>
+            <td>OS</td>
+            <td>OOPS</td>
+            <td>DAA</td>
+            <td>IAI</td>
+            <td rowspan="6" class="lunch">LUNCH</td>
+            <td colspan="3" class="placements">Placements & Assessments</td>
+        </tr>
+
+        <tr>
+            <td><b>TUE</b></td>
+            <td>SE</td>
+            <td colspan="3">OOP’S Through Java Lab</td>
+            <td>OS</td>
+            <td>DAA</td>
+            <td>IAI</td>
+        </tr>
+
+        <tr>
+            <td><b>WED</b></td>
+            <td>OOPS</td>
+            <td>PC</td>
+            <td>SE</td>
+            <td>IAI</td>
+            <td colspan="3">OS Lab</td>
+        </tr>
+
+        <tr>
+            <td><b>THU</b></td>
+            <td>SE</td>
+            <td>OOPS</td>
+            <td>DAA</td>
+            <td>OS</td>
+            <td colspan="3">NODEJS Lab</td>
+        </tr>
+
+        <tr>
+            <td><b>FRI</b></td>
+            <td>OS</td>
+            <td>IAI</td>
+            <td>SE</td>
+            <td>OOPS</td>
+            <td>PC</td>
+            <td>DAA</td>
+            <td>RTOP</td>
+        </tr>
+
+        <tr>
+            <td><b>SAT</b></td>
+            <td>IAI</td>
+            <td>DAA</td>
+            <td>OOPS</td>
+            <td>OS</td>
+            <td>SE</td>
+            <td colspan="2">RTOP</td>
+        </tr>
+
+    </table>
+
+    <!-- Subject & Faculty Table -->
+    <table class="subject-table">
+        <tr>
+            <th>SUBJECT</th>
+            <th>Name of the Faculty</th>
+        </tr>
+        <tr>
+            <td>DAA - Design of Analysis & Algorithms</td>
+            <td>Ms. S. Divya</td>
+        </tr>
+        <tr>
+            <td>IAI - Introduction to Artificial Intelligence</td>
+            <td>Ms. M. Prasanna Kumari</td>
+        </tr>
+        <tr>
+            <td>OOPS - OOP’S Through Java</td>
+            <td>Ms. P. Lakshmi Priya</td>
+        </tr>
+        <tr>
+            <td>OS - Operating Systems</td>
+            <td>Ms. V. Bhavya</td>
+        </tr>
+        <tr>
+            <td>SE - Software Engineering</td>
+            <td>Ms. D. Anusha</td>
+        </tr>
+        <tr>
+            <td>PC - Professional Communications</td>
+            <td>Ms. M. Sujatha</td>
+        </tr>
+        <tr>
+            <td>OOPS Lab - OOP’S Through Java Lab</td>
+            <td>Ms. P. Lakshmi Priya / Ms. M. Swapna / Ms. B. Sunitha</td>
+        </tr>
+        <tr>
+            <td>OS Lab - Operating Systems Lab</td>
+            <td>Ms. V. Bhavya / Ms. D. Anusha</td>
+        </tr>
+    </table>
+
+</body>
+</html>
